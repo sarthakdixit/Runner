@@ -1,0 +1,268 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.runner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.75.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.75.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_auth] /media/sarthak/Personal/Leaning/React Native/React Native/Runner/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+16-->[:react-native-firebase_auth] /media/sarthak/Personal/Leaning/React Native/React Native/Runner/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-firebase_auth] /media/sarthak/Personal/Leaning/React Native/React Native/Runner/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+17-->[:react-native-firebase_auth] /media/sarthak/Personal/Leaning/React Native/React Native/Runner/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:8:5-30:19
+24        android:name="com.runner.MainApplication"
+24-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:9:7-38
+25        android:allowBackup="false"
+25-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:13:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/80dc6a7f174481fe25dcedc41ed68001/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:11:7-41
+29        android:label="@string/app_name"
+29-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:10:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:12:7-52
+31        android:theme="@style/AppTheme"
+31-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:14:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/debug/AndroidManifest.xml:8:9-44
+33        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+33-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/debug/AndroidManifest.xml:11:9-86
+33-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/debug/AndroidManifest.xml:11:19-83
+34
+35        <meta-data
+35-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:15:7-17:64
+36            android:name="com.google.android.geo.API_KEY"
+36-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:16:7-52
+37            android:value="AIzaSyD9yIv3Us-E6NGnIyveBx4UGN7-J82OU_0" />
+37-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:17:7-62
+38
+39        <activity
+39-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:18:7-28:18
+40            android:name="com.runner.MainActivity"
+40-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:19:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:21:9-86
+42            android:label="@string/app_name"
+42-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:20:9-41
+43            android:launchMode="singleTask"
+43-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:22:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:23:9-51
+45            <intent-filter>
+45-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:24:9-27:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:25:13-65
+46-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:25:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:26:13-73
+48-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:26:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <uses-library
+52-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:29:7-85
+53            android:name="org.apache.http.legacy"
+53-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:29:21-58
+54            android:required="false" />
+54-->/media/sarthak/Personal/Leaning/React Native/React Native/Runner/android/app/src/main/AndroidManifest.xml:29:59-83
+55
+56        <activity
+56-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+57            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+57-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+58            android:excludeFromRecents="true"
+58-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+59            android:exported="true"
+59-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+60            android:launchMode="singleTask"
+60-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+61-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+62            <intent-filter>
+62-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+63-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+65-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+66-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+67
+68                <data
+68-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+69                    android:host="firebase.auth"
+69-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+70                    android:path="/"
+70-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+71                    android:scheme="genericidp" />
+71-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+75            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+75-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+89                    android:scheme="recaptcha" />
+89-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92
+93        <service
+93-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+94            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+94-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+95            android:enabled="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+98                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+98-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+98-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+101            </intent-filter>
+102        </service>
+103        <service
+103-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+108                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+108-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-auth:21.0.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-firestore:23.0.2] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ce535e2e88d2cca23b9b163aad233b03/jetified-firebase-firestore-23.0.2/AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+111-->[com.google.firebase:firebase-firestore:23.0.2] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ce535e2e88d2cca23b9b163aad233b03/jetified-firebase-firestore-23.0.2/AndroidManifest.xml:21:17-111
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-firestore:23.0.2] /home/sarthak/.gradle/caches/transforms-2/files-2.1/ce535e2e88d2cca23b9b163aad233b03/jetified-firebase-firestore-23.0.2/AndroidManifest.xml:22:17-82
+113        </service>
+114
+115        <activity
+115-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+116            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+116-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+117            android:excludeFromRecents="true"
+117-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+120        <!--
+121            Service handling Google Sign-In user revocation. For apps that do not integrate with
+122            Google Sign-In, this service will never be started.
+123        -->
+124        <service
+124-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+125            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+125-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+126            android:exported="true"
+126-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+127            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+127-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+128            android:visibleToInstantApps="true" />
+128-->[com.google.android.gms:play-services-auth:19.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/8e7f701a8d3a5faf19f2e2c092105b6b/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:17.1.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:17.1.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:17.1.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:17.1.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/9417d41dde92678ab8488ec0684ca850/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+137            android:authorities="com.runner.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:20.0.0] /home/sarthak/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:17.1.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:17.1.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:17.1.1] /home/sarthak/.gradle/caches/transforms-2/files-2.1/80e5d0ed6b9a943bf2a9b1012d164ae7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+145    </application>
+146
+147</manifest>

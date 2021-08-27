@@ -1,0 +1,14 @@
+com/runner/ReactNativeFlipper.java
+ com.runner.ReactNativeFlipper
+ com.runner.ReactNativeFlipper$1
+ com.runner.ReactNativeFlipper$2
+ com.runner.ReactNativeFlipper$2$1
+com/runner/MainApplication.java
+ com.runner.MainApplication
+ com.runner.MainApplication$1
+com/runner/BuildConfig.java
+ com.runner.BuildConfig
+com/runner/MainActivity.java
+ com.runner.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
