@@ -26,6 +26,11 @@ keytool -list -v -keystore debug.keystore -alias androiddebugkey -storepass andr
 ## Google Map API
 ### You can take help from [here](https://medium.com/@kinley.tshering/google-maps-with-react-native-f7c98bb92362)
 ### After getting API paste it in ./android/app/src/main/AndroidManifest.xml
+```
+<meta-data
+android:name="com.google.android.geo.API_KEY"
+android:value=""/>
+```
 
 ## Configure Firebase
 ### In google-services.json find client_id with client_type = 3. Copy that id and paste that in ./src/utils/Config.js , google_web_client_id.
