@@ -20,11 +20,7 @@ keytool -list -v -keystore PATH_TO_YOUR_KEYSTORE.keystore -alias YOUR_ALIAS_NAME
 ```
 keytool -list -v -keystore debug.keystore -alias androiddebugkey -storepass android -keypass android
 ```
-### For release (goto ./android/app)
-### You can change alias and password in android/gradle.properties
-```
-keytool -list -v -keystore my-upload-key.keystore -alias runner-alias -storepass runner -keypass runner
-```
+### For release APK click [here](https://reactnative.dev/docs/signed-apk-android) for help.
 ### After getting both SHA-1 put them in firebase android config and download `google-services.json` and place that in ./android/
 
 ## Google Map API
